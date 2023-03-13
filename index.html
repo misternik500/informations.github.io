@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bio">
+        <h1 class="bio_h1">Добро пожаловать!</h1>
+        <div class="text">
+            <p class="bio_p">Приветствую вас на сайте с информацией. Здесь содержится информация для общего использования.</p>
+            <p class="bio_p">Так же этот сайт содержит виджеты и мировое время.</p> 
+        </div>
+    </div>
+    <div class="time">
+        <a href="https://time.is/Minsk_Region" id="time_is_link" rel="nofollow" style="font-size:17px">Минская Область:</a>
+        <span id="Minsk_Region_z71d" style="font-size:17px"></span>
+        <script src="//widget.time.is/ru.js"></script>
+        <script>
+        time_is_widget.init({Minsk_Region_z71d:{template:"TIME<br>DATE<br>SUN", date_format:"dayname, dnum monthname year г, week", sun_format:"Восход: srhour:srminute Закат: sshour:ssminute<br>Долгота дня: dlhoursч dlminutesм", coords:"54.0000000,28.0000000"}});
+        </script>
+    </div>
+    <div class="weather">
+        <link rel="stylesheet" type="text/css" href="https://ost1.gismeteo.by/assets/flat-ui/legacy/css/informer.min.css">
+        <div id="gsInformerID-ULaK0vAh7k65ie" class="gsInformer" style="width:210px;height:213px">
+        <div class="gsIContent">
+        <div id="cityLink">
+        <a href="https://www.gismeteo.by/weather-dzerzhinsk-11004/" target="_blank" title="Погода в Дзержинске">
+        <img src="https://ost1.gismeteo.by/assets/flat-ui/img/gisloader.svg" width="24" height="24" alt="Погода в Дзержинске">
+        </a>
+        </div>
+        <div class="gsLinks">
+        <table>
+        <tr>
+        <td>
+        <div class="leftCol">
+        <a href="https://www.gismeteo.by/" target="_blank" title="Погода">
+        <img alt="Погода" src="https://ost1.gismeteo.by/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" width="11" height="16" />
+        <img src="https://ost1.gismeteo.by/assets/flat-ui/img/informer/gismeteo.svg" border="0" align="middle" style="left: 5px; top:1px">
+        </a>
+                            </div>
+                            <div class="rightCol">
+                                <a href="https://www.gismeteo.by/weather-dzerzhinsk-11004/2-weeks/" target="_blank" title="Погода в Дзержинске на 2 недели">
+                                    <img src="https://ost1.gismeteo.by/assets/flat-ui/img/informer/forecast-2weeks.ru.svg" border="0" align="middle" style="top:auto" alt="Погода в Дзержинске на 2 недели">
+                                </a>
+                            </div>
+                        </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script async src="https://www.gismeteo.by/api/informer/getinformer/?hash=ULaK0vAh7k65ie"></script>
+    </div>
+    <div class="money">
+        <iframe frameborder="0" height="131" marginheight="0" marginwidth="0" scrolling="no" src="https://admin.myfin.by/outer/informer/minsk" width="240"></iframe>
+    </div>
+</body>
+</html>

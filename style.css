@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #8ebd9aa9;
+}
+
+.bio {
+    
+}
+
+.bio_h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.text {
+    max-width: 50em;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.time {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.weather {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.money {
+    margin-top: 20px;
+    margin-left: 50px;
+}
